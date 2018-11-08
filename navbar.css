@@ -1,0 +1,105 @@
+body {
+	margin: 0;
+	background-image: url(https://img.freepik.com/free-photo/white-concrete-wall-for-background_1249-263.jpg?size=338&ext=jpg);
+	background-repeat: repeat;
+	font-weight: 300;
+
+}
+.container img {
+	max-width: 90px;
+	padding-top: 10px;
+}
+.container {
+	width: 80%;
+	margin:0 auto;
+}
+header {
+	background: #cece49;
+}
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.logo {
+	float: left;
+}
+nav {
+	float: right;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 35px;
+	font-family: Orbitron;
+	position: relative;
+}
+nav a{
+	color: #777777;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+nav a:hover {
+	color: black;
+}
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #444;
+	position: absolute;
+	top: 60px;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+	width: 100%;
+}
+.aboutme {
+	margin-top: 250px;
+	margin-left: 100px;
+	color: #000000;
+	font-family: Roboto;
+	width: 83%;
+}
+.me {
+	border-style: solid;
+	border-color: #000000;
+	margin-left: 38px;
+	margin-right: 8px;
+	margin-top: -103px;
+	width:250px;
+	height: 370px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
